@@ -1,19 +1,4 @@
 %Visualize the sphere and the respective image slices
-% % % % figure;
-% % % % [x,y,z] = sphere;
-% % % % surf(x*2,y*2+6,z*2);
-% % % % hold on;
-% % % % xlim([-10,10]);
-% % % % ylim([-10,10]);
-% % % % zlim([-10,10]);
-% % % % 
-% % % % for alpha = -15 : 2 : 15;
-% % % %     [X,Y] = meshgrid(-10:.2:10, -10:.2:10);
-% % % %     Z = tan(alpha/180*pi)*Y;
-% % % %     surf(Z)
-% % % %     hold on;
-% % % %     pause;
-% % % % end
 
 angle = 0;
 t = linspace(0,2*pi,1000);

@@ -27,7 +27,7 @@ h = figure;
 image_index = 1;
 
 %make folder 
-
+cd ..
 mkdir('Projection_Images');
 cd('Projection_Images');
 

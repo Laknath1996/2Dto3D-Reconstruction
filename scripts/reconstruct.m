@@ -7,9 +7,9 @@
 clear all;
 close all;
 
+cd ..
 cd('Projection_Images');
 load('frames.mat');
-cd ..
 
 %create a voxel space
 
@@ -65,18 +65,4 @@ lighting gouraud
 
 save('vspace.mat','vspace');
 
-% % % % % %smoothen the voxel object
-% % % % % 
-% % % % % avgs = [];
-% % % % % for i = 4 : 1 : 97
-% % % % %     for j = 4 : 1 : 97
-% % % % %         for frame_index = 4 : 1 : 97
-% % % % %             avg = max(reshape(vspace(i-3:i+3,j-3:j+3,frame_index-3:frame_index+3),[1,343]));
-% % % % %             vspace(i,j,frame_index) = avg;
-% % % % %           
-% % % % %         end
-% % % % %     end
-% % % % % end
-% % % % % 
-% % % % % VoxelPlotter(uint8(vspace));
 
