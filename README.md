@@ -6,6 +6,8 @@
 
 ![alt text](figures/virtual_phantom.jpg)
 
+![alt text](Projection_Images/p10.bmp)
+
 2. To reconstruct the 3D volume using the slices, run the "reconstruct.m". It would generate the reconstruted image and save it in the "Projection_Images" folder.
 
-![alt text](https://github.com/Laknath1996/2Dto3D-Reconstruction/tree/master/figures/volume.jpg)
+![alt text](figures/virtual_volume.jpg)
