@@ -10,4 +10,4 @@
 
 2. To reconstruct the 3D volume using the slices, run the "reconstruct.m". It would generate the reconstruted image and save it in the "Projection_Images" folder.
 
-![alt text](figures/virtual_volume.jpg)
+![alt text](figures/volume.jpg)
